@@ -529,9 +529,9 @@ GET wazuh-states-vulnerabilities-<SERVER_NAME>/_search?size=100
 GET <INDEX_NAME>/_search?size=<limit>
 {
   "_source": [
-    "<field_1>",
-    "<field_2>",
-    "<field_3>"
+    "<FIELD_1>",
+    "<FIELD_2>",
+    "<FIELD_3>"
   ],
   "query": {
     "match": {
@@ -566,9 +566,9 @@ GET wazuh-states-vulnerabilities-<SERVER_NAME>/_search?size=100
 GET <INDEX_NAME>/_search?size=<limit>&pretty=true
 {
   "_source": [
-    "<field_1>",
-    "<field_2>",
-    "<field_3>"
+    "<FIELD_1>",
+    "<FIELD_2>",
+    "<FIELD_3>"
   ],
   "query": {
     "match": {
