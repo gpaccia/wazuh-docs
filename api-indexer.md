@@ -504,7 +504,7 @@ GET <INDEX_NAME>/_search?size=<limit>
 {
   "query": {
     "match": {
-      "<field_name>": "<value>"
+      "<FIELD_NAME>": "<VALUE>"
     }
   }
 }
@@ -535,7 +535,7 @@ GET <INDEX_NAME>/_search?size=<limit>
   ],
   "query": {
     "match": {
-      "<field_name>": "<value>"
+      "<FIELD_NAME>": "<VALUE>"
     }
   }
 }
@@ -572,7 +572,7 @@ GET <INDEX_NAME>/_search?size=<limit>&pretty=true
   ],
   "query": {
     "match": {
-      "<field_name>": "<value>"
+      "<FIELD_NAME>": "<VALUE>"
     }
   }
 }
