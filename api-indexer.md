@@ -605,7 +605,7 @@ GET wazuh-states-vulnerabilities-<SERVER_NAME>/_search?size=100&pretty=true
 ##### 5.1 Set the replica count to 0 for all `.opendistro-*` indices
 
 ```bash
-curl -k -u admin:'<password>' \
+curl -k -u admin:password \
   -X PUT "https://<INDEXER_IP>:9200/.opendistro-*/_settings" \
   -H 'Content-Type: application/json' \
   -d '{
@@ -628,7 +628,7 @@ This applies to:
 ##### 5.2 Apply persistent ISM history settings at the cluster level
 
 ```bash
-curl -k -u admin:'<password>' \
+curl -k -u admin:password \
   -X PUT "https://<INDEXER_IP>:9200/_cluster/settings" \
   -H 'Content-Type: application/json' \
   -d '{
