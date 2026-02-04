@@ -202,7 +202,7 @@ This is required when the server demands client authentication, not just HTTPS.
 
 ```bash
 root@<SERVER_NAME>:~# curl -k -u admin:password -X DELETE https://localhost:9200/wazuh-states-vulnerabilities-<SERVER_NAME>
-{"acknowledged":true}root@<SERVER_NAME>:~#
+{"acknowledged":true}
 ```
 
 ```bash
@@ -213,7 +213,6 @@ root@<SERVER_NAME>:~# curl -k -u admin:password -X DELETE https://localhost:9200
 {
   "acknowledged": true
 }
-root@<SERVER_NAME>:~#
 ```
 
 ```bash
