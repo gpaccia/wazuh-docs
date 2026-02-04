@@ -500,7 +500,7 @@ GET wazuh-states-vulnerabilities-<SERVER_NAME>/_search
 #### 4.3 Filter search results by field value (VD High)
 
 ```
-GET <INDEX_NAME>/_search?size=<limit>
+GET <INDEX_NAME>/_search?size=<MAX_LIMIT>
 {
   "query": {
     "match": {
@@ -526,7 +526,7 @@ GET wazuh-states-vulnerabilities-<SERVER_NAME>/_search?size=100
 #### 4.4 Limit returned fields using `_source` (VD High)
 
 ```
-GET <INDEX_NAME>/_search?size=<limit>
+GET <INDEX_NAME>/_search?size=<MAX_LIMIT>
 {
   "_source": [
     "<FIELD_1>",
@@ -563,7 +563,7 @@ GET wazuh-states-vulnerabilities-<SERVER_NAME>/_search?size=100
 #### 4.5 Use pretty-printed output (VD Critical)
 
 ```
-GET <INDEX_NAME>/_search?size=<limit>&pretty=true
+GET <INDEX_NAME>/_search?size=<MAX_LIMIT>&pretty=true
 {
   "_source": [
     "<FIELD_1>",
